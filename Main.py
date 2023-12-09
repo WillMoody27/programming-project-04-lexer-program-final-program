@@ -6,7 +6,6 @@ import WHMLexer
 # Class: CS 3210
 
 
-'''
 #  NOTE: OLD CODE FOR Manual Testing (Wasn't specified to use in Programming Project 03 instructions)
 #       - If you want to run multiple expressions, uncomment this code below and run the program and manually input expressions
 
@@ -18,8 +17,11 @@ while True:
         print(error.as_string())
     else:
         print(result)
-'''
 
+
+
+
+'''
 
 # Uncomment this section to run the test cases for Programming Project 03 and 04
 
@@ -113,11 +115,12 @@ if __name__ == "__main__":
         "(4>2) AND (5==5)",
         # **** New test cases for Programming Project 04 Below ****
         # Five Test Cases for Program 04 for documentation
-        "4 * (7 + 3) / 4",
-        "NOT (1 AND 0) OR (3 == 3)",
-        "(5 > 3) AND (2 <= 2)",
+        "4 * (7 + 3) / 4", # 10
+        "NOT (1 AND 0) OR (3 == 3)", # True
+        "(5 > 3) AND (2 <= 2)", # True
         "10 / (5 - 5)",
         "4 + -3",
+        "3 * (2 + 4) / 2",
     ]
 
     for expr in test_expressions:
@@ -125,3 +128,4 @@ if __name__ == "__main__":
 
     # End of code for Programming Project 03 and 04
         
+'''
